@@ -47,6 +47,9 @@ Below the training block you'll find a few plot suggestions including our curren
 Run the [jupyter notebook](interactive_calibration_view.ipynb) to get an interactive visualization of global and local calibration on PCA or t-SNE 2D projections powered by plotly and ipywidgets.
 This visualization can be filtered by session UID, class label and iteration.
 
+Preview:
+![[./resources/preview.png]]
+
 <sub>Note that the visualization of many data points may be slow, depending on your browser and machine. Also changing colorization or switching between projections requires that all traces are
 replotted and thus may take a while, too.</sub>
 
