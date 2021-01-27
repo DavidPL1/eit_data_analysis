@@ -59,7 +59,7 @@ Don't hesitate to open an Issue here or contact me (David Leins) via email under
 
 # Citations
 
-coming soon
+Journal citation coming soon, paper is in review.
 
 If you use the dataset in your research, please cite it with:
 
