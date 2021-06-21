@@ -263,6 +263,10 @@ def dual_branch_cnn3_model():
     return dual_branch_input_cnn_template(name='dual-CNN3-dual-branch')
 
 
+def dual_branch_cnn3_dropout_model():
+    return dual_branch_input_cnn_template(dropout_1=0.5, dropout_2=0.5, name="dual-CNN3-dual-branch-dropout")
+
+
 def dual_branch_cnn3_dropout_2_model():
     return dual_branch_input_cnn_template(dropout_1=0.25, dropout_2=0.25, name="dual-CNN3-dual-branch-dropout-2")
 
