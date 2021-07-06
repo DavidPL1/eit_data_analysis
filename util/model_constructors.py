@@ -251,32 +251,20 @@ def dual_branch_input_cnn_template(
     return tf.keras.Model(inputs=[InMeasure, InRef], outputs=x, name=name)
 
 
-def dual_branch_cnn1_model():
-    return dual_branch_input_cnn_template(num_convs=2, dilation_rate=2, name='dual-CNN1-dual-branch')
-
-
-def single_branch_cnn1_model():
-    return single_branch_input_cnn_template(num_convs=1, dilation_rate=2, name='dual-CNN1-single-branch')
-
-
 def dual_branch_cnn3_model():
     return dual_branch_input_cnn_template(name='dual-CNN3-dual-branch')
 
 
 def dual_branch_cnn3_dropout_model():
-    return dual_branch_input_cnn_template(dropout_1=0.5, dropout_2=0.5, name="dual-CNN3-dual-branch-dropout")
+    return dual_branch_input_cnn_template(dropout_1=0.25, dropout_2=0.25, name="dual-CNN3-dual-branch-dropout")
 
 
 def dual_branch_cnn3_dropout_2_model():
-    return dual_branch_input_cnn_template(dropout_1=0.25, dropout_2=0.25, name="dual-CNN3-dual-branch-dropout-2")
+    return dual_branch_input_cnn_template(dropout_1=0.5, dropout_2=0.5, name="dual-CNN3-dual-branch-dropout-2")
 
 
 def dual_branch_cnn4_model():
     return dual_branch_input_cnn_template(num_convs=1, dilation_rate=2, name="dual-CNN4-dual-branch")
-
-
-def single_branch_cnn4_model():
-    return single_branch_input_cnn_template(filters_1=128, num_convs=1, filters_2=128, dilation_rate=2, name='dual-CNN4-single-branch')
 
 
 def dual_branch_cnn5_model():
@@ -289,3 +277,16 @@ def dual_branch_cnn6_model():
 
 def single_branch_cnn6_model():
     return single_branch_input_cnn_template(num_convs=1, name="dual-CNN6-single-branch")
+
+
+def dual_branch_cnn7_model():
+    return dual_branch_input_cnn_template(num_convs=2, dilation_rate=2, name='dual-CNN7-dual-branch')
+
+
+def single_branch_cnn8_model():
+    return single_branch_input_cnn_template(num_convs=1, dilation_rate=2, name='dual-CNN8-single-branch')
+
+
+def single_branch_cnn9_model():
+    return single_branch_input_cnn_template(filters_1=128, num_convs=1, filters_2=128, dilation_rate=2, name='dual-CNN9-single-branch')
+
