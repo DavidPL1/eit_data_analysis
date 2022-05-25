@@ -58,7 +58,19 @@ Don't hesitate to open an Issue here or contact me (David Leins) via email under
 
 # Citations
 
-Journal citation coming soon, paper is in review.
+```
+@ARTICLE{10.3389/fnbot.2021.659311,
+  AUTHOR={Leins, David P. and Gibas, Christian and Brück, Rainer and Haschke, Robert},
+  TITLE={Toward More Robust Hand Gesture Recognition on EIT Data},
+  JOURNAL={Frontiers in Neurorobotics},
+  VOLUME={15},
+  YEAR={2021},
+  URL={https://www.frontiersin.org/article/10.3389/fnbot.2021.659311},
+  DOI={10.3389/fnbot.2021.659311},
+  ISSN={1662-5218},
+}
+```
+
 
 If you use the dataset in your research, please cite it with:
 
